@@ -23,7 +23,7 @@ major_contigs_order = ["chr" + str(a) for a in list(range(1, 23)) + ["X", "Y"]] 
 required_tool_version = {
     'python': LooseVersion('3.6.10'),
     'pypy': LooseVersion('3.6'),
-    'samtools': LooseVersion('1.20'),
+    'samtools': LooseVersion('1.15.1'),
     'whatshap': LooseVersion('1.7'),
     'parallel': LooseVersion('20191122'),
 }
