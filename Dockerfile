@@ -16,7 +16,7 @@ WORKDIR /opt/bin
 RUN conda config --add channels defaults && \
     conda config --add channels bioconda && \
     conda config --add channels conda-forge && \
-    conda create -n clair3 python=3.6.10 -y
+    conda create -n clair3 python=3.9.0 -y
     
 ENV PATH /opt/conda/envs/clair3/bin:$PATH
 ENV CONDA_DEFAULT_ENV clair3
